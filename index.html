@@ -3,71 +3,224 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet e-commerce</title>
+    <title>iCE - Accueil</title>
     <!-- Bootstrap.css -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/my-style.css">
+    <!-- Generals CSS -->
+    <link rel="stylesheet" href="css/generals.css">
+    <!-- Index CSS -->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-theme shadow-lg">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"> <!-- data-target="#navbarText" -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarText"> 
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="medias/images/logo-i-connect-easily.png" height="50" alt="" loading="lazy">
             </a>
             <div class="collapse navbar-collapse" id="navbarText">
-
                 <ul class="navbar-nav mr-auto w-100 text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">USB</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">USB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">Réseau</a>
-                    </li>
-                   <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">Vidéo</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">Réseau</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">À propos</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="video.html">Vidéo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">Contact</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="apropos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="navbar-text d-flex flex-row">
                 <a href="#"><i class="fas fa-search d-none d-lg-block"></i></a>
                 <a href="#"><i class="fas fa-user-alt d-none d-lg-block"></i></a>
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
             </div>
         </div>
     </nav>
     <!-- Main -->
-    <main>
-        <div id="homepage-slogan">
+    <main class="bg-page pb-5">
+        <div id="index-slogan" class="pb-5">
             <div class="container">
-                <img src="medias/images/background-cables.png" class="img-fluid" alt="Responsive image">
-                <h1 class="mt-5 text-center">La garantie de câbles<br>de qualité dans la durée.</h1>
+                <img src="medias/images/background-cables.png" class="img-fluid" alt="Décoration de câbles en tout genre tombant vers le bas">
+                <h1 class="my-5 text-center color-text">La garantie de câbles<br>de qualité dans la durée.</h1>
+                <button type="button" class="btn btn-dark btn-lg text-uppercase d-block m-auto font-weight-bold">Découvrir notre histoire</button>
             </div>
         </div>
-        <div id="homepage-story">
+        <div id="index-story" class="bg-theme py-5">
+            <div class="container">
+                <div class="row pb-lg-5">
+                    <div class="col-12 col-md-6 py-4">
+                        <h3 class="color-textAlt font-weight-900 font-italic text-center pb-4">Qui sommes nous&nbsp;?</h2>
+                        <p class="color-textAlt">C'est l'histoire d'une rencontre de 3 jeunes étudiants passionnés.<br><br>Durant leurs études, face à l'impossibilité de trouver facilement certains câbles spécifiques et de qualité sur le long terme.<br><br>C'est ainsi qu'est né iConnectEasily&nbsp;!</p>
+                    </div>
+                    <div class="col-12 col-md-6 order-first order-md-last d-flex align-items-center">
+                        <img src="medias/images/illustration-etudiants.jpg" class="img-fluid rounded" alt="Illustration d'étudiants discutants autour d'une table">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex align-items-center">
+                        <img src="medias/images/illustration-controle-qualite.jpg" class="img-fluid rounded" alt="Illustration d'ingénieurs approuvants la qualité du Produit">
+                    </div>
+                    <div class="col-12 col-md-6 py-4">
+                        <h3 class="color-textAlt font-weight-900 font-italic text-center pb-4">Pourquoi iConnectEasily&nbsp;?</h2>
+                        <p class="color-textAlt">En achetant nos produits, vous avez la garantie d'obtenir des câbles hauts de gamme autant de par leur qualité de finition que par leurs performances dans le temps.<br><br>De plus, vous obtenez une garantie complète de 5 ans sans conditions et tous les éventuels frais de réparation sont pris en charges.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
-        <div id="homepage-products">
-
+        <div id="index-products" class="bg-page py-5">
+            <div class="container">
+                <h2 class="text-center color-theme font-weight-900 pb-5">Une sélection de nos produits</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 pb-3">
+                        <div class="card rounded" id="card-1">
+                            <div class="card-body" id="">
+                                <h5 class="card-title text-center">Titre Produit</h5>
+                                <img src="" class="card-img-top" alt="">
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-text">Prix TTC</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-subtext">Prix HT</p>
+                                    </div>
+                                </div>
+                                <button class="btn-productAdd btn btn-b d-block m-auto"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-3">
+                        <div class="card rounded" id="card-2">
+                            <div class="card-body" id="">
+                                <h5 class="card-title text-center">Titre Produit</h5>
+                                <img src="" class="card-img-top" alt="">
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-text">Prix TTC</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-subtext">Prix HT</p>
+                                    </div>
+                                </div>
+                                <button class="btn-productAdd btn btn-b d-block m-auto"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-3">
+                        <div class="card rounded" id="card-3">
+                            <div class="card-body" id="">
+                                <h5 class="card-title text-center">Titre Produit</h5>
+                                <img src="" class="card-img-top" alt="">
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-text">Prix TTC</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-subtext">Prix HT</p>
+                                    </div>
+                                </div>
+                                <button class="btn-productAdd btn btn-b d-block m-auto"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-3">
+                        <div class="card rounded" id="card-4">
+                            <div class="card-body" id="">
+                                <h5 class="card-title text-center">Titre Produit</h5>
+                                <img src="" class="card-img-top" alt="">
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-text">Prix TTC</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-subtext">Prix HT</p>
+                                    </div>
+                                </div>
+                                <button class="btn-productAdd btn btn-b d-block m-auto"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-3">
+                        <div class="card rounded" id="card-5">
+                            <div class="card-body" id="">
+                                <h5 class="card-title text-center">Titre Produit</h5>
+                                <img src="" class="card-img-top" alt="">
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-text">Prix TTC</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-subtext">Prix HT</p>
+                                    </div>
+                                </div>
+                                <button class="btn-productAdd btn btn-b d-block m-auto"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-3">
+                        <div class="card rounded" id="card-6">
+                            <div class="card-body" id="">
+                                <h5 class="card-title text-center">Titre Produit</h5>
+                                <img src="" class="card-img-top" alt="">
+                                <div class="row pb-2">
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-text">Prix TTC</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="card-text text-center color-subtext">Prix HT</p>
+                                    </div>
+                                </div>
+                                <button class="btn-productAdd btn btn-b d-block m-auto"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-
-
     </main>
-
-
+    <!-- Footer -->
+    <footer class="bg-theme py-5 text-center color-textAlt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <p>© Copyright Tom Delaunay 2021 ©</p>
+                    <p>Mentions Légales</p>
+                    <p>CGU & CGV</p>
+                    <p>RGPD</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p>Retrouvez nous sur nos Réseaux Sociaux&nbsp;:</p>
+                    <p id="socials">
+                        <a><i class="fab fa-instagram px-2"> </i></a>
+                        <a><i class="fab fa-snapchat px-2"> </i></a>
+                        <a><i class="fab fa-twitter-square px-2"> </i></a>
+                        <a><i class="fab fa-facebook-square px-2"> </i></a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <form method="POST">
+                        <div class="form-group">
+                            <label for="newsletterEMail">Inscrivez vous à la newsletter&nbsp;:</label>
+                            <input type="email" class="form-control" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
+                            <small id="infosEMail" class="form-text text-muted color-textAlt">Un mail par mois des actualités.</small>
+                        </div>
+                        <button type="submit" class="btn btn-light">Valider</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Jquery & Bootstrap.js -->
     <script src="scripts/jquery-3.5.1.js"></script>
     <script src="scripts/bootstrap.bundle.js"></script>

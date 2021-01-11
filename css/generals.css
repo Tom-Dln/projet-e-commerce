@@ -1,0 +1,161 @@
+/* ------------------------------------------------
+
+    Projet - Ecommerce
+    Tom Delaunay
+    La Manu - 2020/2021
+
+------------------------------------------------ */
+
+/* ------------------------------------------------
+
+    Ce fichier sert à modifier le CSS
+    general du site. Il gère aussi
+    les importations comme la police.
+
+------------------------------------------------ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* ------------------------------------------------
+
+    Déclarations de classes globales
+    et réutilisables.
+
+------------------------------------------------ */
+
+
+.bg-page {
+    background: #EAEAEA !important;
+}
+
+.bg-theme {
+    background: #026AD4 !important;
+}
+
+.bg-white {
+    background: #FFFFFF !important;
+}
+
+.bg-inter {
+    background: #F7F7F7 !important;
+}
+
+
+.color-text {
+    color: #2D2D2D !important;
+}
+
+.color-textAlt {
+    color: #FFFFFF !important;
+}
+
+.color-theme {
+    color: #026AD4 !important;
+}
+
+.color-subtext {
+    color: #707070 !important;
+}
+
+.font-weight-900 {
+    font-weight: 900 !important;
+}
+
+
+
+/* ------------------------------------------------
+
+    Modification de classes globales
+    de Bootstrap.
+
+------------------------------------------------ */
+
+
+.btn-light {
+    color: #026AD4 !important;
+    font-weight: 900 !important;
+}
+
+
+.breadcrumb {
+    background: none;
+}
+
+
+
+/* ------------------------------------------------
+
+    Modifications de la NavBar
+
+------------------------------------------------ */
+
+
+.navbar-text a:hover {
+    text-decoration: none;
+}
+
+.navbar-nav {
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    border-radius: 500px;
+}
+
+.navbar-text .fas {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+@media (max-width: 992px) {
+    .nav-link {
+        border-radius: 0;
+        background: none;
+        color: #FFF !important;
+        font-weight: normal;
+    }
+}
+
+
+
+/* ------------------------------------------------
+
+    Modifications du Footer
+
+------------------------------------------------ */
+
+
+#socials {
+    font-size: 2.5rem;
+}
+
+
+
+/* ------------------------------------------------
+
+    Autres
+
+------------------------------------------------ */
+
+
+
+/*  À faire :
+
+    - Btn-b à modifier
+
+
+*/
+
+
+.btn-b {
+    color: #FFF !important;
+    background: #026AD4 !important;
+    border-color: #026AD4 !important;
+}

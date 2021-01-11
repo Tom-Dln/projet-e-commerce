@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCE - Panier</title>
+    <!-- Bootstrap.css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Generals CSS -->
+    <link rel="stylesheet" href="css/generals.css">
+    <!-- Cart CSS -->
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-theme shadow-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarText"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="medias/images/logo-i-connect-easily.png" height="50" alt="" loading="lazy">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto w-100 text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">USB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">Réseau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="video.html">Vidéo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="apropos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-text d-flex flex-row">
+                <a href="#"><i class="fas fa-search d-none d-lg-block"></i></a>
+                <a href="#"><i class="fas fa-user-alt d-none d-lg-block"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main class="bg-page pt-3 pb-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb container">
+                <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Mon Panier</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div id="cart" class="row">
+                <div id="cart-products" class="col-12 col-lg-9 text-center">
+                    <div class="cart-header row py-2 bg-white color-subtext d-none d-lg-flex">
+                        <div class="col-2">Photo</div>
+                        <div class="col-3">Désignation</div>
+                        <div class="col-2">Prix</div>
+                        <div class="col-2">Quantité</div>
+                        <div class="col-2">Sous-total</div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
+                <div id="cart-totals" class="col-12 col-lg-3 p-4 bg-theme color-textAlt font-weight-bold text-center">
+                    <div class="row">
+                        <div class="col-12 pb-4">
+                            <h3 class="text-uppercase">Total</h3>
+                        </div>
+                        <div class="col-6 text-left">
+                            <p>Sous-Total</p>
+                            <p>Livraison</p>
+                            <p>Total HT</p>
+                            <p>Total TTC</p>
+                        </div>
+                        <div class="col-6 text-right">
+                            <p id="cart-totals-subTotal"></p>
+                            <p id="cart-totals-delivery"></p>
+                            <p id="cart-totals-totalsHT"></p>
+                            <p id="cart-totals-totalsTTC"></p>
+                        </div>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-light btn-lg font-weight-bold color-theme mt-3">COMMANDER</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-theme py-5 text-center color-textAlt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <p>© Copyright Tom Delaunay 2021 ©</p>
+                    <p>Mentions Légales</p>
+                    <p>CGU & CGV</p>
+                    <p>RGPD</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p>Retrouvez nous sur nos Réseaux Sociaux&nbsp;:</p>
+                    <p id="socials">
+                        <a><i class="fab fa-instagram px-2"> </i></a>
+                        <a><i class="fab fa-snapchat px-2"> </i></a>
+                        <a><i class="fab fa-twitter-square px-2"> </i></a>
+                        <a><i class="fab fa-facebook-square px-2"> </i></a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <form method="POST">
+                        <div class="form-group">
+                            <label for="newsletterEMail">Inscrivez vous à la newsletter&nbsp;:</label>
+                            <input type="email" class="form-control" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
+                            <small id="infosEMail" class="form-text text-muted color-textAlt">Un mail par mois des actualités.</small>
+                        </div>
+                        <button type="submit" class="btn btn-light">Valider</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Jquery & Bootstrap.js -->
+    <script src="scripts/jquery-3.5.1.js"></script>
+    <script src="scripts/bootstrap.bundle.js"></script>
+    <!-- Javascript -->
+    <script src="scripts/my-js.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4cfbd32d63.js" crossorigin="anonymous"></script>
+</body>
+</html>

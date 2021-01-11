@@ -1,0 +1,46 @@
+/* ------------------------------------------------
+
+    Projet - Ecommerce
+    Tom Delaunay
+    La Manu - 2020/2021
+
+------------------------------------------------ */
+
+/* ------------------------------------------------
+
+    Ce fichier sert à modifier le CSS
+    de la page Index du site.
+
+------------------------------------------------ */
+
+
+#index-products p {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+
+#index-slogan h1 {
+    color: #2D2D2D;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+@media (max-width: 992px) {
+    #index-slogan h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #index-slogan h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #index-story p {
+        font-size: 1.2rem;
+    }
+}

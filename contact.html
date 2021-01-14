@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iCE - Panier</title>
+    <title>iCE - Contact</title>
     <!-- Bootstrap.css -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Generals CSS -->
     <link rel="stylesheet" href="css/generals.css">
-    <!-- Cart CSS -->
-    <link rel="stylesheet" href="css/cart.css">
+    <!-- Usb CSS -->
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -52,47 +52,49 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb container">
                 <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Mon Panier</li>
+                <li class="breadcrumb-item active" aria-current="page">Contact</li>
             </ol>
         </nav>
         <div class="container">
-            <div id="cart" class="row">
-                <div id="cart-products" class="col-12 col-lg-9 text-center">
-                    <div class="cart-header row py-2 bg-white color-subtext d-none d-lg-flex">
-                        <div class="col-2">Photo</div>
-                        <div class="col-3">Désignation</div>
-                        <div class="col-2">Prix</div>
-                        <div class="col-2">Quantité</div>
-                        <div class="col-2">Sous-total</div>
-                        <div class="col-1"></div>
-                    </div>
+            <div id="contact-menu" class="row bg-theme p-4">
+                <div class="col-12 col-lg-6 p-3 color-textAlt text-center">
+                    <h3 class="text-uppercase pb-4">Nous trouver</h3>
+                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.563079194349!2d0.1112162155790762!3d49.492759779354586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02ffeb266cdc9%3A0x65c08f7aeb1e9d1f!2sLa%20Manu%20-%20L&#39;%C3%89cole%20des%20m%C3%A9tiers%20du%20num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1610654531134!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <p class="font-weight-bold m-0 p-0 pt-2 pb-1">iConnectEasily</p>
+                    <p class="m-0 p-0 pb-1">10 Place Léon Meyer</p>
+                    <p class="m-0 p-0">76600 - Le Havre</p>
                 </div>
-                <div id="cart-totals" class="col-12 col-lg-3 p-4 bg-theme color-textAlt font-weight-bold text-center">
-                    <div class="row">
-                        <div class="col-12 pb-4">
-                            <h3 class="text-uppercase">Total</h3>
+                <div class="col-12 col-lg-6 p-3 color-textAlt">
+                    <h3 class="text-uppercase pb-4 text-center">Nous contacter</h3>
+                    <form method="POST">
+                        <div class="form-group row">
+                            <label for="subject" class="col-sm-3 col-form-label">Sujet :</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="subject" placeholder="Demande de renseignements">
+                            </div>
                         </div>
-                        <div class="col-6 text-left">
-                            <p>Sous-Total</p>
-                            <p>Livraison</p>
-                            <p>Total HT</p>
-                            <p>Total TTC</p>
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-3 col-form-label">Email :</label>
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="email" placeholder="mail@site.fr">
+                            </div>
                         </div>
-                        <div class="col-6 text-right">
-                            <p id="cart-totals-subTotal"></p>
-                            <p id="cart-totals-delivery"></p>
-                            <p id="cart-totals-totalsHT"></p>
-                            <p id="cart-totals-totalsTTC"></p>
+                        <div class="form-group row">
+                            <label for="message" class="col-sm-3 col-form-label">Message :</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" id="message" rows="4" placeholder="Tappez votre message ici"></textarea>
+                            </div>
                         </div>
-                        <div class="col-12">
-                            <button type="button" class="btn btn-light btn-lg font-weight-bold color-theme mt-3">COMMANDER</button> 
-                        </div>
-                    </div>
+                        <button type="submit" class="btn-light btn-lg font-weight-bold color-theme text-uppercase d-block mx-auto mt-4">Envoyer</button>
+                        <address class="text-center mt-3">
+                            <a href="mailto:contact@iconnecteasily.com" class="color-textAlt">contact@iconnecteasily.com</a><br>
+                            <a href="tel:0986271704" class="color-textAlt">09 86 27 17 04</a>
+                          </address>
+                    </form>
                 </div>
             </div>
         </div>
     </main>
-    
     <!-- Footer -->
     <footer class="bg-theme py-5 text-center color-textAlt">
         <div class="container">

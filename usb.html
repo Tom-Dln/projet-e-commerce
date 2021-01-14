@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Generals CSS -->
     <link rel="stylesheet" href="css/generals.css">
-    <!-- Index CSS -->
-    <link rel="stylesheet" href="css/index.css">
+    <!-- Usb CSS -->
+    <link rel="stylesheet" href="css/products.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-theme shadow-lg">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarText"> 
                 <span class="navbar-toggler-icon"></span>
@@ -24,19 +24,19 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto w-100 text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="usb.html">USB</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">USB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">Réseau</a>
-                    </li>
-                   <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">Vidéo</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">reseau</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">À propos</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="video.html">Vidéo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-lg-4 py-lg-1" href="#">Contact</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="apropos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,24 +48,48 @@
         </div>
     </nav>
     <!-- Main -->
-    <main>
-        <nav aria-label="breadcrumb" class="bg-page">
+    <main class="bg-page pt-3 pb-5">
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb container">
-              <li class="breadcrumb-item"><a href="#">Accueil</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Usb</li>
+                <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Usb</li>
             </ol>
-          </nav>
-        <div id="products" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        f
+        </nav>
+        <div class="container">
+            <div id="cart" class="row">
+                <div id="products-filters" class="col-12 col-lg-3 p-4 mb-5 bg-theme color-textAlt text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="text-uppercase font-weight-bold">Filtrer</h3>
+                            <p class="font-italic">N'étant pas pertinant dans le cas de ce site, aucun système de filtrage au détail n'est implanté.</p>
+                        </div>
                     </div>
-                    <div class="col-9"></div>
                 </div>
+                <div id="products-show" class="col-12 col-lg-9">
+                    <div class="product-header row py-2 bg-white color-subtext d-none d-lg-flex">
+                        <div class="col-10 font-weight-bold">Il y a XX produits dans cette catégorie :</div>
+                    </div>
+                    <!-- <div class="product-lign row py-2 align-items-center">
+                        <div class="col-12 col-lg-3">
+                            <img src="medias/images/products/rj45-bleu-1.jpg" class="product-photo img-fluid" alt="XXXXXXXXXXXXXX">
+                        </div>
+                        <div class="col-12 col-lg-6 align-self-start mt-2">
+                            <h5 class="color-text d-inline-block">Multiprise 19" 1U Montage 8 puits</h5>
+                            <p class="color-subtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio. </p>
+                            <p class="text-success font-weight-bold"><i class="fas fa-check"></i> En Stock</p>
+                        </div>
+                        <div class="d-flex d-lg-block col-12 col-lg-3 text-center justify-content-center">
+                            <h3 class="col-5 col-lg-12 m-0 p-0 mb-lg-1">139.99€</h3>
+                            <h4 class="col-5 col-lg-12 m-0 p-0 mb-lg-3 pt-1 color-subtext">121.99€</h4>
+                            <button class="col-2 col-lg-4 m-0 p-0 btn-productAdd btn btn-b" wfd-id="71"><i class="fas fa-cart-plus" aria-hidden="true"></i></button>
+                        </div>
+                    </div> -->
 
+
+
+
+                </div>
             </div>
-
         </div>
     </main>
 
@@ -74,36 +98,35 @@
 
 
 
-    <footer class="bg-b py-5 text-center color-w">
+    <!-- Footer -->
+    <footer class="bg-theme py-5 text-center color-textAlt">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
                     <p>© Copyright Tom Delaunay 2021 ©</p>
                     <p>Mentions Légales</p>
                     <p>CGU & CGV</p>
-                    <p>GRPD</p>
+                    <p>RGPD</p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <p>Retrouvez nous sur nos Réseaux Sociaux :</p>
+                    <p>Retrouvez nous sur nos reseaux Sociaux&nbsp;:</p>
                     <p id="socials">
-                        <a><i class="fab fa-instagram"> </i></a>
-                        <a><i class="fab fa-snapchat"> </i></a>
-                        <a><i class="fab fa-twitter-square"> </i></a>
-                        <a><i class="fab fa-facebook-square"> </i></a>
+                        <a><i class="fab fa-instagram px-2"> </i></a>
+                        <a><i class="fab fa-snapchat px-2"> </i></a>
+                        <a><i class="fab fa-twitter-square px-2"> </i></a>
+                        <a><i class="fab fa-facebook-square px-2"> </i></a>
                     </p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <form>
+                    <form method="POST">
                         <div class="form-group">
                             <label for="newsletterEMail">Inscrivez vous à la newsletter&nbsp;:</label>
                             <input type="email" class="form-control" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
-                            <small id="infosEMail" class="form-text text-muted color-w">Un mail par mois des actualités.</small>
+                            <small id="infosEMail" class="form-text text-muted color-textAlt">Un mail par mois des actualités.</small>
                         </div>
-                        <button type="submit" class="btn btn-w">Valider</button>
+                        <button type="submit" class="btn btn-light">Valider</button>
                     </form>
                 </div>
-
-            </div>
             </div>
         </div>
     </footer>

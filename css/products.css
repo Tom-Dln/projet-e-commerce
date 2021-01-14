@@ -1,0 +1,24 @@
+/* ------------------------------------------------
+
+    Projet - Ecommerce
+    Tom Delaunay
+    La Manu - 2020/2021
+
+------------------------------------------------ */
+
+/* ------------------------------------------------
+
+    Ce fichier sert à modifier le CSS
+    des pages Produits du site.
+
+------------------------------------------------ */
+
+
+.priceTTC::after,
+.priceHT::after {
+    content: " €";
+}
+
+#products-show a {
+    color: #2D2D2D !important
+}

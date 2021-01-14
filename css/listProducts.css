@@ -9,14 +9,13 @@
 /* ------------------------------------------------
 
     Ce fichier sert à modifier le CSS
-    des pages Produits du site.
+    des pages Listes Produits du site.
 
 ------------------------------------------------ */
 
-
 .priceTTC::after,
 .priceHT::after {
-    content: " €";
+    content: "€";
 }
 
 #products-show a {

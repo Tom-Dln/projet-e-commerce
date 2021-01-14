@@ -9,10 +9,9 @@
 /* ------------------------------------------------
 
     Ce fichier sert à modifier le CSS
-    de la page Produit du site.
+    de la page Fiche Produit du site.
 
 ------------------------------------------------ */
-
 
 #priceTTC {
     font-size: 2.4rem !important;
@@ -25,7 +24,6 @@
 #priceTTC::after {
     content: "€";
 }
-
 
 #priceHT::after {
     content: "€ HT";

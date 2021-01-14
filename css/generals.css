@@ -14,14 +14,11 @@
 
 ------------------------------------------------ */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 /* ------------------------------------------------
 
@@ -29,7 +26,6 @@
     et réutilisables.
 
 ------------------------------------------------ */
-
 
 .bg-page {
     background: #EAEAEA !important;
@@ -46,7 +42,6 @@
 .bg-inter {
     background: #F7F7F7 !important;
 }
-
 
 .color-text {
     color: #2D2D2D !important;
@@ -68,8 +63,6 @@
     font-weight: 900 !important;
 }
 
-
-
 /* ------------------------------------------------
 
     Modification de classes globales
@@ -77,25 +70,16 @@
 
 ------------------------------------------------ */
 
-
 .btn-light {
     color: #026AD4 !important;
     font-weight: 900 !important;
 }
-
-
-.breadcrumb {
-    background: none;
-}
-
-
 
 /* ------------------------------------------------
 
     Modifications de la NavBar
 
 ------------------------------------------------ */
-
 
 .navbar-text a:hover {
     text-decoration: none;
@@ -124,7 +108,19 @@
     }
 }
 
+/* ------------------------------------------------
 
+    Modifications du Breadcrumb
+
+------------------------------------------------ */
+
+.breadcrumb {
+    background: none;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+}
 
 /* ------------------------------------------------
 
@@ -132,30 +128,9 @@
 
 ------------------------------------------------ */
 
-
 #socials {
     font-size: 2.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-.breadcrumb-item.active {
-    font-weight: bold;
-}
-
-
-
-
-
-
 
 /* ------------------------------------------------
 

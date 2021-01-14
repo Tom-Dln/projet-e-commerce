@@ -13,12 +13,10 @@
 
 ------------------------------------------------ */
 
-
 #index-products p {
     font-size: 1.6rem;
     font-weight: 800;
 }
-
 
 #index-slogan h1 {
     color: #2D2D2D;
@@ -37,7 +35,6 @@
         font-size: 2.2rem;
     }
 }
-
 
 @media (min-width: 992px) {
     #index-story p {

@@ -15,9 +15,10 @@
 
 /* ------------------------------------------------
 
-    Reseau - Fiches Produits
+    Réseau - Fiches Produits
 
 ------------------------------------------------ */
+
 
 let product1 = {
     productId: 'product1',
@@ -41,7 +42,7 @@ let product2 = {
     priceHT: 10.82,
     priceTTC: 12.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rj45-rose-1.jpg',
     img2: 'medias/images/products/rj45-rose-2.jpg',
@@ -56,7 +57,7 @@ let product3 = {
     priceHT: 17.49,
     priceTTC: 20.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rj45-orange-1.jpg',
     img2: 'medias/images/products/rj45-orange-2.jpg',
@@ -71,7 +72,7 @@ let product4 = {
     priceHT: 64.99,
     priceTTC: 77.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rj45-vert-1.jpg',
     img2: 'medias/images/products/rj45-vert-2.jpg',
@@ -86,7 +87,7 @@ let product5 = {
     priceHT: 34.16,
     priceTTC: 40.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rj45-violet-1.jpg',
     img2: 'medias/images/products/rj45-violet-2.jpg',
@@ -101,7 +102,7 @@ let product6 = {
     priceHT: 3.33,
     priceTTC: 3.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rj45-jaune-1.jpg',
     img2: 'medias/images/products/rj45-jaune-2.jpg',
@@ -116,7 +117,7 @@ let product7 = {
     priceHT: 111.66,
     priceTTC: 133.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rack-12-1.jpg',
     img2: 'medias/images/products/rack-12-2.jpg',
@@ -131,7 +132,7 @@ let product8 = {
     priceHT: 152.49,
     priceTTC: 182.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rack-15-1.jpg',
     img2: 'medias/images/products/rack-15-2.jpg',
@@ -146,7 +147,7 @@ let product9 = {
     priceHT: 48.14,
     priceTTC: 57.77,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/switch-16-1.jpg',
     img2: 'medias/images/products/switch-16-2.jpg',
@@ -161,7 +162,7 @@ let product10 = {
     priceHT: 76.57,
     priceTTC: 91.88,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/switch-24-1.jpg',
     img2: 'medias/images/products/switch-24-2.jpg',
@@ -176,7 +177,7 @@ let product11 = {
     priceHT: 14.99,
     priceTTC: 17.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rack-1u-1.jpg',
     img2: 'medias/images/products/rack-1u-2.jpg',
@@ -191,13 +192,15 @@ let product12 = {
     priceHT: 18.06,
     priceTTC: 21.67,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
     img1: 'medias/images/products/rack-1e-1.jpg',
     img2: 'medias/images/products/rack-1e-2.jpg',
     img3: 'medias/images/products/rack-1e-3.jpg',
     imgAlt: 'Photo de Multiprise 19" 1U Montage 8 puits'
 };
+
+
 
 /* ------------------------------------------------
 
@@ -206,26 +209,157 @@ let product12 = {
 ------------------------------------------------ */
 
 
-
-
-
-
-
-
-
-let productX = {
-    productId: '',
-    name: '',
-    priceHT: 0,
-    priceTTC: 0,
+let product13 = {
+    productId: 'product13',
+    category: 'Usb',
+    name: 'Rallonge USB 3.0 Type A 1m',
+    priceHT: 6.66,
+    priceTTC: 7.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
-    desc: '',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
     stock: 50,
-    img1: 'medias/images/products/.jpg',
-    img2: 'medias/images/products/.jpg',
-    img3: 'medias/images/products/.jpg',
-    imgAlt: 'Photo de '
+    img1: 'medias/images/products/usb-a-rallonge-1.jpg',
+    img2: 'medias/images/products/usb-a-rallonge-2.jpg',
+    img3: 'medias/images/products/usb-a-rallonge-3.jpg',
+    imgAlt: 'Photo de Rallonge USB 3.0 Type A 1m'
 };
+
+let product14 = {
+    productId: 'product14',
+    category: 'Usb',
+    name: 'Clé USB 1To 3.0',
+    priceHT: 23.32,
+    priceTTC: 27.99,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/usb-cle-1.jpg',
+    img2: 'medias/images/products/usb-cle-2.jpg',
+    img3: 'medias/images/products/usb-cle-3.jpg',
+    imgAlt: 'Photo de Clé USB 1To 3.0'
+};
+
+let product15 = {
+    productId: 'product15',
+    category: 'Usb',
+    name: 'Hub USB 3.0 4 Ports SuperSpeed',
+    priceHT: 12.03,
+    priceTTC: 14.44,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/usb-hub-1.jpg',
+    img2: 'medias/images/products/usb-hub-2.jpg',
+    img3: 'medias/images/products/usb-hub-3.jpg',
+    imgAlt: 'Photo de Hub USB 3.0 4 Ports SuperSpeed'
+};
+
+let product16 = {
+    productId: 'product16',
+    category: 'Usb',
+    name: 'Adaptateur USB C vers USB 3.0',
+    priceHT: 4.99,
+    priceTTC: 5.99,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/usb-adaptateur-1.jpg',
+    img2: 'medias/images/products/usb-adaptateur-2.jpg',
+    img3: 'medias/images/products/usb-adaptateur-3.jpg',
+    imgAlt: 'Photo de Adaptateur USB C vers USB 3.0'
+};
+
+let product17 = {
+    productId: 'product17',
+    category: 'Usb',
+    name: 'USB 2.0 A Mâle vers USB B Mâle 3m',
+    priceHT: 7.46,
+    priceTTC: 8.95,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/usb-a-cable-1.jpg',
+    img2: 'medias/images/products/usb-a-cable-2.jpg',
+    img3: 'medias/images/products/usb-a-cable-3.jpg',
+    imgAlt: 'Photo de USB 2.0 A Mâle vers USB B Mâle 3m'
+};
+
+
+
+/* ------------------------------------------------
+
+    Vidéo - Fiches Produits
+
+------------------------------------------------ */
+
+
+let product18 = {
+    productId: 'product18',
+    category: 'Video',
+    name: 'Câble HDMI Nylon 4K 2m',
+    priceHT: 7.46,
+    priceTTC: 8.95,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/video-hdmi-cable-1.jpg',
+    img2: 'medias/images/products/video-hdmi-cable-2.jpg',
+    img3: 'medias/images/products/video-hdmi-cable-3.jpg',
+    imgAlt: 'Photo de Câble HDMI Nylon 4K 2m'
+};
+
+let product19 = {
+    productId: 'product19',
+    category: 'Video',
+    name: 'Câble VGA vers VGA de Moniteur 1.8m',
+    priceHT: 5.74,
+    priceTTC: 6.89,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/video-vga-cable-1.jpg',
+    img2: 'medias/images/products/video-vga-cable-2.jpg',
+    img3: 'medias/images/products/video-vga-cable-3.jpg',
+    imgAlt: 'Photo de Câble VGA vers VGA de Moniteur 1.8m'
+};
+
+let product20 = {
+    productId: 'product20',
+    category: 'Video',
+    name: 'Convertisseur HDMI vers VGA 1080p',
+    priceHT: 6.58,
+    priceTTC: 7.89,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/video-convertisseur-cable-1.jpg',
+    img2: 'medias/images/products/video-convertisseur-cable-2.jpg',
+    img3: 'medias/images/products/video-convertisseur-cable-3.jpg',
+    imgAlt: 'Photo de Convertisseur HDMI vers VGA 1080p'
+};
+
+let product21 = {
+    productId: 'product21',
+    category: 'Video',
+    name: 'Hub USB C - Multisupports',
+    priceHT: 12.41,
+    priceTTC: 14.89,
+    recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
+    stock: 50,
+    img1: 'medias/images/products/video-hub-1.jpg',
+    img2: 'medias/images/products/video-hub-2.jpg',
+    img3: 'medias/images/products/video-hub-3.jpg',
+    imgAlt: 'Photo de Hub USB C - Multisupports'
+};
+
+
+
+/* ------------------------------------------------
+
+    Variables
+
+------------------------------------------------ */
 
 let quantity = 1;
 

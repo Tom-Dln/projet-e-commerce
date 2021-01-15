@@ -13,7 +13,6 @@
 
 ------------------------------------------------ */
 
-
 .cart-priceTTC p::after,
 .cart-subtotalTTC p::after,
 #cart-totals-subTotal::after,
@@ -23,15 +22,11 @@
     content: " €";
 }
 
-
 #cart-totals {
     height: fit-content;
 }
-
 
 .cart-supp {
     font-size: 1.5rem;
     cursor: pointer;
 }
-
-

@@ -742,7 +742,7 @@ function listProductsGeneration() {
         listProductsBackground();
     }
     /* Page de Listes Produits Usb */
-    if ($('title:first-of-type').text() == 'iCE - Usb') {
+    if ($('title:first-of-type').text() == 'iCE - Video') {
         $('#products-show').append(`<div id="${product18.productId}" class="product-lign row py-2 align-items-center"><div class="col-12 col-lg-3"><a href="product.html"><img src="${product18.img1}" class="product-photo img-fluid" alt="${product18.imgAlt}"></a></div><div class="col-12 col-lg-6 align-self-start mt-2"><h5 class="color-text d-inline-block"><a href="product.html">${product18.name}</a></h5><p class="color-subtext">${product18.recap}</p><p class="product-disponibility font-weight-bold"></p></div><div class="d-flex d-lg-block col-12 col-lg-3 text-center justify-content-center"><h3 class="priceTTC col-5 col-lg-12 m-0 p-0 mb-lg-1">${product18.priceTTC}</h3><h4 class="priceHT col-5 col-lg-12 m-0 p-0 mb-lg-3 pt-1 color-subtext">${product18.priceHT}</h4><button class="col-2 col-lg-4 m-0 p-0 btn-productAdd btn btn-b"><i class="fas fa-cart-plus" aria-hidden="true"></i></button></div></div>`);
         if (product18.stock > 0) {
             $('.product-disponibility').last().text(`En stock : ${product18.stock}`);
@@ -1198,6 +1198,34 @@ function cartSuppression() {
 }
 
 
+/* ------------------------------------------------
+
+    - Fonction Globale -
+    Modification de la Navigation Responsive
+
+------------------------------------------------ */
+
+function navChange() {
+    if ($(window).width() < 993) {
+        $('#nav-icons').appendTo('#nav-mobile');
+    }
+    else {
+        $('#nav-icons').appendTo('#nav-desktop');
+    }
+    $(window).resize(function() {
+        //update stuff
+        if ($(window).width() < 993) {
+            $('#nav-icons').appendTo('#nav-mobile');
+        }
+        else {
+            $('#nav-icons').appendTo('#nav-desktop');
+        }
+      });
+
+
+}
+
+
 
 /* ------------------------------------------------
 
@@ -1210,6 +1238,7 @@ $(function() {
     /* Initialisations Données */
     cartRecover();
     productPageRecover();
+    navChange();
 
     /* Génération Page Index */
     

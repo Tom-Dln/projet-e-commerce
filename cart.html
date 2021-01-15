@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iCE - Panier</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="medias/images/favicon.png"/>
     <!-- Bootstrap.css -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/imports/bootstrap.css">
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="css/imports/toastr.min.css">
     <!-- Generals CSS -->
     <link rel="stylesheet" href="css/generals.css">
     <!-- Cart CSS -->
@@ -21,13 +25,14 @@
             <a class="navbar-brand" href="index.html">
                 <img src="medias/images/logo-i-connect-easily.png" height="50" alt="" loading="lazy">
             </a>
+            <div id="nav-mobile" class="d-lg-none"></div>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto w-100 text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">USB</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">Réseau</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">reseau</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">Usb</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="video.html">Vidéo</a>
@@ -40,10 +45,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-text d-flex flex-row">
-                <a href="#"><i class="fas fa-search d-none d-lg-block"></i></a>
-                <a href="#"><i class="fas fa-user-alt d-none d-lg-block"></i></a>
-                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <div id="nav-desktop" class="d-none d-lg-block">
+                <div id="nav-icons" class="navbar-text d-flex flex-row">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user-alt"></i></a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -92,7 +99,6 @@
             </div>
         </div>
     </main>
-    
     <!-- Footer -->
     <footer class="bg-theme py-5 text-center color-textAlt">
         <div class="container">
@@ -116,7 +122,7 @@
                     <form method="POST">
                         <div class="form-group">
                             <label for="newsletterEMail">Inscrivez vous à la newsletter&nbsp;:</label>
-                            <input type="email" class="form-control" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
+                            <input type="email" class="form-control w-75 mx-auto" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
                             <small id="infosEMail" class="form-text text-muted color-textAlt">Un mail par mois des actualités.</small>
                         </div>
                         <button type="submit" class="btn btn-light">Valider</button>
@@ -125,12 +131,14 @@
             </div>
         </div>
     </footer>
-    <!-- Jquery & Bootstrap.js -->
-    <script src="scripts/jquery-3.5.1.js"></script>
-    <script src="scripts/bootstrap.bundle.js"></script>
-    <!-- Javascript -->
-    <script src="scripts/my-js.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4cfbd32d63.js" crossorigin="anonymous"></script>
+    <!-- Toastr JS -->
+    <script src="scripts/imports/toastr.min.js"></script>
+    <!-- Jquery & Bootstrap.js -->
+    <script src="scripts/imports/jquery-3.5.1.js"></script>
+    <script src="scripts/imports/bootstrap.bundle.js"></script>
+    <!-- Javascript -->
+    <script src="scripts/script.js"></script>
 </body>
 </html>

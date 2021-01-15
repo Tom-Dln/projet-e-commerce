@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iCE - Produit</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="medias/images/favicon.png"/>
     <!-- Bootstrap.css -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/imports/bootstrap.css">
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="css/imports/toastr.min.css">
     <!-- Generals CSS -->
     <link rel="stylesheet" href="css/generals.css">
-    <!-- Usb CSS -->
+    <!-- Cart CSS -->
     <link rel="stylesheet" href="css/product.css">
-    <!-- Toast CSS -->
-    <link rel="stylesheet" href="css/toastr.min.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -23,13 +25,14 @@
             <a class="navbar-brand" href="index.html">
                 <img src="medias/images/logo-i-connect-easily.png" height="50" alt="" loading="lazy">
             </a>
+            <div id="nav-mobile" class="d-lg-none"></div>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto w-100 text-uppercase">
                     <li class="nav-item">
-                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">USB</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">Réseau</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="reseau.html">reseau</a>
+                        <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="usb.html">Usb</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link bg-white color-theme font-weight-900 px-lg-4 py-lg-1" href="video.html">Vidéo</a>
@@ -42,10 +45,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-text d-flex flex-row">
-                <a href="#"><i class="fas fa-search d-none d-lg-block"></i></a>
-                <a href="#"><i class="fas fa-user-alt d-none d-lg-block"></i></a>
-                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <div id="nav-desktop" class="d-none d-lg-block">
+                <div id="nav-icons" class="navbar-text d-flex flex-row">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-user-alt"></i></a>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </div>
             </div>
         </div>
     </nav>
@@ -60,50 +65,9 @@
         </nav>
         <div class="container bg-white px-4 pt-3 pb-4">
             <div id="product-page" class="row">
-                <!-- <div class="col-12">
-                    <h1 class="color-subtext">Nom du Produit</h1>
-                </div>
-                <div class="col-12 col-lg-4 mb-4 mb-lg-0">
-                    <div id="carouselProduct" class="carousel slide border" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="medias/images/products/rj45-rose-1.jpg" alt="XXXXXXXXXX">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="medias/images/products/rj45-rose-2.jpg" alt="XXXXXXXXXX">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="medias/images/products/rj45-rose-3.jpg" alt="XXXXXXXXXX">
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselProduct" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Précédant</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselProduct" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Suivant</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aperiam adipisci magnam vel cumque, vero similique impedit ex fugit, facilis numquam soluta corrupti beatae ipsam eum eligendi recusandae omnis natus.</p>
-                </div>
-                <div class="col-12 col-lg-3">
-                    <div class="bg-inter px-3 py-3">
-                        <p id="priceTTC" class="text-center font-weight-bold p-0 m-0">20.99€</p>
-                        <p id="priceHT" class="text-center font-weight-bold color-subtext">18.99€ HT</p>
-                        <input type="number" class="d-block w-25 w-lg-50 text-center mx-auto" value="1">
-                        <button class="btn-productAdd btn btn-b d-block mx-auto mt-4"><i class="fas fa-cart-plus"></i> Ajouter au Panier</button>
-                        <p class="color-subtext mt-2 text-center mb-0">XX en stock</p>
-                    </div>
-                </div> -->
             </div>
         </div>
     </main>
-
-
-    
     <!-- Footer -->
     <footer class="bg-theme py-5 text-center color-textAlt">
         <div class="container">
@@ -127,7 +91,7 @@
                     <form method="POST">
                         <div class="form-group">
                             <label for="newsletterEMail">Inscrivez vous à la newsletter&nbsp;:</label>
-                            <input type="email" class="form-control" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
+                            <input type="email" class="form-control w-75 mx-auto" id="newsletterEMail" aria-describedby="infosEMail" placeholder="Entrez votre email">
                             <small id="infosEMail" class="form-text text-muted color-textAlt">Un mail par mois des actualités.</small>
                         </div>
                         <button type="submit" class="btn btn-light">Valider</button>
@@ -136,14 +100,14 @@
             </div>
         </div>
     </footer>
-    <!-- Jquery & Bootstrap.js -->
-    <script src="scripts/jquery-3.5.1.js"></script>
-    <script src="scripts/bootstrap.bundle.js"></script>
-    <!-- Javascript -->
-    <script src="scripts/my-js.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4cfbd32d63.js" crossorigin="anonymous"></script>
-    <!-- Toast Js -->
-    <script src="scripts/toastr.min.js"></script>
+    <!-- Toastr JS -->
+    <script src="scripts/imports/toastr.min.js"></script>
+    <!-- Jquery & Bootstrap.js -->
+    <script src="scripts/imports/jquery-3.5.1.js"></script>
+    <script src="scripts/imports/bootstrap.bundle.js"></script>
+    <!-- Javascript -->
+    <script src="scripts/script.js"></script>
 </body>
 </html>

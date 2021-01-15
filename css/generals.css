@@ -66,13 +66,19 @@
 /* ------------------------------------------------
 
     Modification de classes globales
-    de Bootstrap.
+    btn de Bootstrap.
 
 ------------------------------------------------ */
 
 .btn-light {
     color: #026AD4 !important;
     font-weight: 900 !important;
+}
+
+.btn-primary {
+    color: #FFF !important;
+    background: #026AD4 !important;
+    border-color: #026AD4 !important;
 }
 
 /* ------------------------------------------------
@@ -140,26 +146,4 @@
 
 #toastcontainer>div {
     opacity: 1;
-}
-
-/* ------------------------------------------------
-
-    Autres
-
------------------------------------------------- */
-
-
-
-/*  À faire :
-
-    - Btn-b à modifier
-
-
-*/
-
-
-.btn-b {
-    color: #FFF !important;
-    background: #026AD4 !important;
-    border-color: #026AD4 !important;
 }

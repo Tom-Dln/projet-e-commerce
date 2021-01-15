@@ -459,6 +459,33 @@ function indexAddProduct() {
 
 /* ------------------------------------------------
 
+    - Page Index -
+    Enregistrement de l'ID du Produit pour
+    générer sa Page Fiche Produit
+
+------------------------------------------------ */
+
+function IndexToProductPage() {
+    $(document).on('click', 'h5', function () {
+        if ($('title:first-of-type').text() == 'iCE - Accueil') {
+            productToAddClicked = $(this).parent().parent().attr('id')
+            console.log(productToAddClicked)
+            sessionStorage.setItem("product", productToAddClicked);
+        }
+    })
+    $(document).on('click', 'img', function () {
+        if ($('title:first-of-type').text() == 'iCE - Accueil') {
+            productToAddClicked = $(this).parent().parent().attr('id')
+            console.log(productToAddClicked)
+            sessionStorage.setItem("product", productToAddClicked);
+        }
+    })
+}
+
+
+
+/* ------------------------------------------------
+
     - Page Cart -
     Génération/Remplissage du Panier en HTML
 
@@ -1244,6 +1271,7 @@ $(function() {
     
     indexProductsAttribute();
     indexAddProduct();
+    IndexToProductPage();
 
     /* Génération Page Panier */
 

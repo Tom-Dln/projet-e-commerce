@@ -27,10 +27,10 @@ let product1 = {
     priceTTC: 6.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 12,
     img1: 'medias/images/products/rj45-bleu-1.jpg',
     img2: 'medias/images/products/rj45-bleu-2.jpg',
-    img3: 'medias/images/products/rj45-bleu-3.jpg',
+    img3: 'medias/images/products/rj45-3.jpg',
     imgAlt: 'Photo de Câble RJ45 (Croisé) 2m CAT5E Blindage FTP - Bleu'
 };
 
@@ -42,10 +42,10 @@ let product2 = {
     priceTTC: 12.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 0,
     img1: 'medias/images/products/rj45-rose-1.jpg',
     img2: 'medias/images/products/rj45-rose-2.jpg',
-    img3: 'medias/images/products/rj45-rose-3.jpg',
+    img3: 'medias/images/products/rj45-3.jpg',
     imgAlt: 'Photo de Câble RJ45 (Croisé) 5m CAT5E Blindage FTP - Rose'
 };
 
@@ -57,10 +57,10 @@ let product3 = {
     priceTTC: 20.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 68,
     img1: 'medias/images/products/rj45-orange-1.jpg',
     img2: 'medias/images/products/rj45-orange-2.jpg',
-    img3: 'medias/images/products/rj45-orange-3.jpg',
+    img3: 'medias/images/products/rj45-3.jpg',
     imgAlt: 'Photo de Câble RJ45 (Croisé) 10m CAT5E Blindage FTP - Orange'
 };
 
@@ -72,10 +72,10 @@ let product4 = {
     priceTTC: 77.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 75,
     img1: 'medias/images/products/rj45-vert-1.jpg',
     img2: 'medias/images/products/rj45-vert-2.jpg',
-    img3: 'medias/images/products/rj45-vert-3.jpg',
+    img3: 'medias/images/products/rj45-3.jpg',
     imgAlt: 'Photo de Câble RJ45 (Croisé) 50m CAT5E Blindage FTP - Vert'
 };
 
@@ -87,10 +87,10 @@ let product5 = {
     priceTTC: 40.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 3,
     img1: 'medias/images/products/rj45-violet-1.jpg',
     img2: 'medias/images/products/rj45-violet-2.jpg',
-    img3: 'medias/images/products/rj45-violet-3.jpg',
+    img3: 'medias/images/products/rj45-3.jpg',
     imgAlt: 'Photo de Câble RJ45 (Croisé) 20m CAT5E Blindage FTP - Violet'
 };
 
@@ -102,10 +102,10 @@ let product6 = {
     priceTTC: 3.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 15,
     img1: 'medias/images/products/rj45-jaune-1.jpg',
     img2: 'medias/images/products/rj45-jaune-2.jpg',
-    img3: 'medias/images/products/rj45-jaune-3.jpg',
+    img3: 'medias/images/products/rj45-3.jpg',
     imgAlt: 'Photo de Câble RJ45 (Croisé) 1m CAT5E Blindage FTP - Jaune'
 };
 
@@ -117,7 +117,7 @@ let product7 = {
     priceTTC: 133.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 39,
     img1: 'medias/images/products/rack-12-1.jpg',
     img2: 'medias/images/products/rack-12-2.jpg',
     img3: 'medias/images/products/rack-12-3.jpg',
@@ -132,7 +132,7 @@ let product8 = {
     priceTTC: 182.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 10,
     img1: 'medias/images/products/rack-15-1.jpg',
     img2: 'medias/images/products/rack-15-2.jpg',
     img3: 'medias/images/products/rack-15-3.jpg',
@@ -147,7 +147,7 @@ let product9 = {
     priceTTC: 57.77,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 8,
     img1: 'medias/images/products/switch-16-1.jpg',
     img2: 'medias/images/products/switch-16-2.jpg',
     img3: 'medias/images/products/switch-16-3.jpg',
@@ -162,7 +162,7 @@ let product10 = {
     priceTTC: 91.88,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 23,
     img1: 'medias/images/products/switch-24-1.jpg',
     img2: 'medias/images/products/switch-24-2.jpg',
     img3: 'medias/images/products/switch-24-3.jpg',
@@ -177,7 +177,7 @@ let product11 = {
     priceTTC: 17.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 204,
     img1: 'medias/images/products/rack-1u-1.jpg',
     img2: 'medias/images/products/rack-1u-2.jpg',
     img3: 'medias/images/products/rack-1u-3.jpg',
@@ -192,7 +192,7 @@ let product12 = {
     priceTTC: 21.67,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 56,
     img1: 'medias/images/products/rack-1e-1.jpg',
     img2: 'medias/images/products/rack-1e-2.jpg',
     img3: 'medias/images/products/rack-1e-3.jpg',
@@ -215,7 +215,7 @@ let product13 = {
     priceTTC: 7.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 32,
     img1: 'medias/images/products/usb-a-rallonge-1.jpg',
     img2: 'medias/images/products/usb-a-rallonge-2.jpg',
     img3: 'medias/images/products/usb-a-rallonge-3.jpg',
@@ -230,7 +230,7 @@ let product14 = {
     priceTTC: 27.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 85,
     img1: 'medias/images/products/usb-cle-1.jpg',
     img2: 'medias/images/products/usb-cle-2.jpg',
     img3: 'medias/images/products/usb-cle-3.jpg',
@@ -245,7 +245,7 @@ let product15 = {
     priceTTC: 14.44,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 21,
     img1: 'medias/images/products/usb-hub-1.jpg',
     img2: 'medias/images/products/usb-hub-2.jpg',
     img3: 'medias/images/products/usb-hub-3.jpg',
@@ -260,7 +260,7 @@ let product16 = {
     priceTTC: 5.99,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 78,
     img1: 'medias/images/products/usb-adaptateur-1.jpg',
     img2: 'medias/images/products/usb-adaptateur-2.jpg',
     img3: 'medias/images/products/usb-adaptateur-3.jpg',
@@ -275,7 +275,7 @@ let product17 = {
     priceTTC: 8.95,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 62,
     img1: 'medias/images/products/usb-a-cable-1.jpg',
     img2: 'medias/images/products/usb-a-cable-2.jpg',
     img3: 'medias/images/products/usb-a-cable-3.jpg',
@@ -298,7 +298,7 @@ let product18 = {
     priceTTC: 8.95,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 13,
     img1: 'medias/images/products/video-hdmi-cable-1.jpg',
     img2: 'medias/images/products/video-hdmi-cable-2.jpg',
     img3: 'medias/images/products/video-hdmi-cable-3.jpg',
@@ -313,7 +313,7 @@ let product19 = {
     priceTTC: 6.89,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 89,
     img1: 'medias/images/products/video-vga-cable-1.jpg',
     img2: 'medias/images/products/video-vga-cable-2.jpg',
     img3: 'medias/images/products/video-vga-cable-3.jpg',
@@ -328,7 +328,7 @@ let product20 = {
     priceTTC: 7.89,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 38,
     img1: 'medias/images/products/video-convertisseur-cable-1.jpg',
     img2: 'medias/images/products/video-convertisseur-cable-2.jpg',
     img3: 'medias/images/products/video-convertisseur-cable-3.jpg',
@@ -343,7 +343,7 @@ let product21 = {
     priceTTC: 14.89,
     recap: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis odio.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut molestie congue erat, et ullamcorper quam pulvinar vel. Nullam vitae elit sed dolor placerat tempus porta ac diam. Donec iaculis turpis commodo aliquet varius. Proin vel molestie quam, id venenatis tellus. Sed laoreet, dolor ac egestas convallis, ante erat vestibulum lorem, id porta nisi ante sit amet turpis.',
-    stock: 50,
+    stock: 21,
     img1: 'medias/images/products/video-hub-1.jpg',
     img2: 'medias/images/products/video-hub-2.jpg',
     img3: 'medias/images/products/video-hub-3.jpg',
@@ -465,7 +465,7 @@ function indexAddProduct() {
 
 ------------------------------------------------ */
 
-function IndexToProductPage() {
+function indexToProductPage() {
     $(document).on('click', 'h5', function () {
         if ($('title:first-of-type').text() == 'iCE - Accueil') {
             productToAddClicked = $(this).parent().parent().attr('id')
@@ -476,6 +476,33 @@ function IndexToProductPage() {
     $(document).on('click', 'img', function () {
         if ($('title:first-of-type').text() == 'iCE - Accueil') {
             productToAddClicked = $(this).parent().parent().attr('id')
+            console.log(productToAddClicked)
+            sessionStorage.setItem("product", productToAddClicked);
+        }
+    })
+}
+
+
+
+/* ------------------------------------------------
+
+    - Page Index -
+    Enregistrement de l'ID du Produit pour
+    générer sa Page Fiche Produit
+
+------------------------------------------------ */
+
+function cartToProductPage() {
+    $(document).on('click', 'h6', function () {
+        if ($('title:first-of-type').text() == 'iCE - Panier') {
+            productToAddClicked = $(this).parent().parent().parent().attr('id')
+            console.log(productToAddClicked)
+            sessionStorage.setItem("product", productToAddClicked);
+        }
+    })
+    $(document).on('click', 'img', function () {
+        if ($('title:first-of-type').text() == 'iCE - Panier') {
+            productToAddClicked = $(this).parent().parent().parent().attr('id')
             console.log(productToAddClicked)
             sessionStorage.setItem("product", productToAddClicked);
         }
@@ -497,67 +524,67 @@ function cartGeneration() {
         for (i=0; i<cartICE.length; i++) {
             if (i%2 == 0) {
                 if (cartICE[i] == 'product1') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product1.img1}" class="img-fluid" alt="${product1.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product1.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product1.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product1.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product1.productId}" class="product-lign row py-2 d-flex align-items-center mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product1.img1}" class="img-fluid" alt="${product1.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product1.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product1.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product1.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product2') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product2.img1}" class="img-fluid" alt="${product2.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product2.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product2.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product2.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product2.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product2.img1}" class="img-fluid" alt="${product2.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product2.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product2.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product2.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product3') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product3.img1}" class="img-fluid" alt="${product3.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product3.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product3.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product3.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product3.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product3.img1}" class="img-fluid" alt="${product3.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product3.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product3.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product3.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product4') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product4.img1}" class="img-fluid" alt="${product4.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product4.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product4.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product4.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product4.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product4.img1}" class="img-fluid" alt="${product4.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product4.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product4.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product4.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product5') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product5.img1}" class="img-fluid" alt="${product5.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product5.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product5.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product5.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product5.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product5.img1}" class="img-fluid" alt="${product5.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product5.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product5.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product5.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product6') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product6.img1}" class="img-fluid" alt="${product6.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product6.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product6.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product6.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product6.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product6.img1}" class="img-fluid" alt="${product6.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product6.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product6.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product6.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product7') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product7.img1}" class="img-fluid" alt="${product7.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product7.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product7.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product7.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product7.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product7.img1}" class="img-fluid" alt="${product7.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product7.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product7.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product7.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product8') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product8.img1}" class="img-fluid" alt="${product8.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product8.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product8.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product8.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product8.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product8.img1}" class="img-fluid" alt="${product8.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product8.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product8.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product8.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product9') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product9.img1}" class="img-fluid" alt="${product9.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product9.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product9.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product9.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product9.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product9.img1}" class="img-fluid" alt="${product9.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product9.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product9.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product9.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product10') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product10.img1}" class="img-fluid" alt="${product10.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product10.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product10.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product10.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product10.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product10.img1}" class="img-fluid" alt="${product10.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product10.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product10.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product10.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product11') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product11.img1}" class="img-fluid" alt="${product11.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product11.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product11.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product11.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product11.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product11.img1}" class="img-fluid" alt="${product11.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product11.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product11.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product11.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product12') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product12.img1}" class="img-fluid" alt="${product12.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product12.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product12.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product12.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product12.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product12.img1}" class="img-fluid" alt="${product12.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product12.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product12.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product12.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product13') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product13.img1}" class="img-fluid" alt="${product13.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product13.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product13.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product13.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product13.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product13.img1}" class="img-fluid" alt="${product13.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product13.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product13.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product13.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product14') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product14.img1}" class="img-fluid" alt="${product14.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product14.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product14.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product14.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product14.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product14.img1}" class="img-fluid" alt="${product14.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product14.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product14.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product14.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product15') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product15.img1}" class="img-fluid" alt="${product15.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product15.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product15.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product15.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product15.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product15.img1}" class="img-fluid" alt="${product15.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product15.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product15.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product15.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product16') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product16.img1}" class="img-fluid" alt="${product16.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product16.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product16.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product16.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product16.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product16.img1}" class="img-fluid" alt="${product16.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product16.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product16.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product16.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product17') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product17.img1}" class="img-fluid" alt="${product17.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product17.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product17.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product17.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product17.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product17.img1}" class="img-fluid" alt="${product17.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product17.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product17.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product17.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product18') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product18.img1}" class="img-fluid" alt="${product18.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product18.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product18.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product18.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product18.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product18.img1}" class="img-fluid" alt="${product18.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product18.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product18.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product18.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product19') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product19.img1}" class="img-fluid" alt="${product19.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product19.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product19.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product19.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product19.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product19.img1}" class="img-fluid" alt="${product19.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product19.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product19.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product19.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product20') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product20.img1}" class="img-fluid" alt="${product20.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product20.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product20.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product20.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product20.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product20.img1}" class="img-fluid" alt="${product20.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product20.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product20.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product20.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
                 if (cartICE[i] == 'product21') {
-                    $('#cart-products').append(`<div class="product-lign row py-2 d-flex align-items-center"><div class="cart-photo col-3 col-lg-2"><img src="${product21.img1}" class="img-fluid" alt="${product21.imgAlt}"></div><div class="cart-name col-9 col-lg-3"><h6 class="color-text m-0">${product21.name}</h6></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product21.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product21.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
+                    $('#cart-products').append(`<div id="${product21.productId}" class="product-lign row py-2 d-flex align-items-center  mb-3 mb-lg-0"><div class="cart-photo col-3 col-lg-2"><a href="product.html"><img src="${product21.img1}" class="img-fluid" alt="${product21.imgAlt}"></a></div><div class="cart-name col-9 col-lg-3"><a href="product.html"><h6 class="color-text m-0">${product21.name}</h6></a></div><div class="cart-priceTTC d-none d-none d-lg-block col-lg-2"><p class="font-weight-bold m-0">${product21.priceTTC}</p></div><div class="col-3 d-lg-none"></div><div class="cart-productToAddQuantity col-4 col-lg-2"><input type="number" class="w-75 text-center" value="${cartICE[i+1]}" product="${product21.productId}"></div><div class="cart-subtotalTTC col-4 col-lg-2"><p class="font-weight-bold m-0">Sous-Total TTC</p></div><div class="cart-supp col-1 p-0"><i class="fas fa-trash-alt color-theme"></i></div></div>`);
                 }
             }
         }
@@ -1225,6 +1252,7 @@ function cartSuppression() {
 }
 
 
+
 /* ------------------------------------------------
 
     - Fonction Globale -
@@ -1240,14 +1268,15 @@ function navChange() {
         $('#nav-icons').appendTo('#nav-desktop');
     }
     $(window).resize(function() {
-        //update stuff
         if ($(window).width() < 993) {
             $('#nav-icons').appendTo('#nav-mobile');
         }
         else {
             $('#nav-icons').appendTo('#nav-desktop');
         }
-      });
+    });
+    if ($('title:first-of-type').text() == 'iCE - Accueil') {
+    }
 
 
 }
@@ -1271,16 +1300,16 @@ $(function() {
     
     indexProductsAttribute();
     indexAddProduct();
-    IndexToProductPage();
+    indexToProductPage();
 
     /* Génération Page Panier */
 
     cartGeneration();
     cartChangeQuantity();
     cartSuppression();
+    cartToProductPage();
 
     /* Génération Page Liste Produits */
-
 
     listProductsGeneration();
     listProductsAddProduct();

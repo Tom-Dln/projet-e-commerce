@@ -818,7 +818,7 @@ function listProductsBackground() {
 ------------------------------------------------ */
 
 function listProductsAddProduct() {
-    if ($('title:first-of-type').text() == 'iCE - Usb') {
+    if (($('title:first-of-type').text() == 'iCE - Usb')  || ($('title:first-of-type').text() == 'iCE - Reseau') || ($('title:first-of-type').text() == 'iCE - Video')) {
         $(document).on('click', '.btn-productAdd', function () {
             productToAddClicked = $(this).parent().parent().attr('id');
             console.log(`Produit cliqué : ${productToAddClicked}`);
